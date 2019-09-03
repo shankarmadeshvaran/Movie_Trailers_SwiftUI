@@ -1,0 +1,100 @@
+
+[
+    {
+        "id": 1,
+        "thumbnail": "aquaman",
+        "title": "Aquaman",
+        "description": "Once home to the most advanced civilization on Earth, the city of Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people -- and then the surface world. Standing in his way is Aquaman, Orm's half-human, half-Atlantean brother and true heir to the throne. With help from royal counselor Vulko, Aquaman must retrieve the legendary Trident of Atlan and embrace his destiny as protector of the deep.",
+        "trailerLink" : "https://www.youtube.com/watch?v=WDkg3h8PCVU",
+        "catagory": "DC"
+    },
+    {
+        "id": 2,
+        "thumbnail": "avengers",
+        "title": "The Avengers",
+        "description": "S.H.I.E.L.D. leader Nick Fury is compelled to launch the Avengers Initiative when Loki poses a threat to planet Earth. His squad of superheroes put their minds together to accomplish the task.",
+        "trailerLink" : "https://www.youtube.com/watch?v=eOrNdBpGMv8",
+        "catagory": "Marvel"
+    },
+    {
+        "id": 3,
+        "thumbnail": "avengersultron",
+        "title": "Avengers - Age Of Ultron",
+        "description": "Tony Stark builds an artificial intelligence system named Ultron with the help of Bruce Banner. When the sentient Ultron makes plans to wipe out the human race, the Avengers set out to stop him.",
+        "trailerLink" : "https://www.youtube.com/watch?v=tmeOjFno6Do",
+        "catagory": "Marvel"
+    },
+    {
+        "id": 4,
+        "thumbnail": "batmanvssuperman",
+        "title": "Batman v Superman: Dawn of Justice",
+        "description": "Bruce Wayne, a billionaire, believes that Superman is a threat to humanity after his battle in Metropolis. Thus, he decides to adopt his mantle of Batman and defeat him once and for all.",
+        "trailerLink" : "https://www.youtube.com/watch?v=fis-9Zqu2Ro",
+        "catagory": "DC"
+    },
+    {
+        "id": 5,
+        "thumbnail": "endgame",
+        "title": "Avengers: Endgame",
+        "description": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.",
+        "trailerLink" : "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+        "catagory": "Marvel"
+    },
+    {
+        "id": 6,
+        "thumbnail": "infinitywar",
+        "title": "Avengers: Infinity War",
+        "description": "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs",
+        "trailerLink" : "https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+        "catagory": "Marvel"
+    },
+    {
+        "id": 7,
+        "thumbnail": "justiceleague",
+        "title": "Justice League",
+        "description": "Steppenwolf and his Parademons set out to take over the Earth. However, Batman seeks the help of Wonder Woman to assemble and recruit Flash, Cyborg and Aquaman to thwart the powerful new enemy.",
+        "trailerLink" : "https://www.youtube.com/watch?v=jrAA9Gt-jqw",
+        "catagory": "DC"
+    },
+    {
+        "id": 8,
+        "thumbnail": "wonderwomen",
+        "title": "Wonder Women",
+        "description": "Princess Diana of an all-female Amazonian race rescues US pilot Steve. Upon learning of a war, she ventures into the world of men to stop Ares, the god of war, from destroying mankind.",
+        "trailerLink" : "https://www.youtube.com/watch?v=VSB4wGIdDwo",
+        "catagory": "DC"
+    },
+    {
+        "id": 9,
+        "thumbnail": "venom",
+        "title": "Venom",
+        "description": "While trying to take down Carlton, the CEO of Life Foundation, Eddie, a journalist, investigates experiments of human trials. Unwittingly, he gets merged with a symbiotic alien with lethal abilities.",
+        "trailerLink" : "https://www.youtube.com/watch?v=u9Mv98Gr5pY",
+        "catagory": "Action and adventure"
+    },
+    {
+        "id": 10,
+        "thumbnail": "mib",
+        "title": "Men in Black: International",
+        "description": "The Men in Black have expanded to cover the globe but so have the villains of the universe. To keep everyone safe, decorated Agent H and determined rookie M join forces -- an unlikely pairing that just might work. When aliens that can take the form of any human arrive on Earth, H and M embark on a globe-trotting adventure to save the agency -- and ultimately the world -- from their mischievous plans.",
+        "trailerLink" : "https://www.youtube.com/watch?v=BV-WEb2oxLk",
+        "catagory": "Action and adventure"
+    },
+    {
+        "id": 11,
+        "thumbnail": "fallout",
+        "title": "Mission: Impossible – Fallout",
+        "description": "A group of terrorists plans to detonate three plutonium cores for a simultaneous nuclear attack on different cities. Ethan Hunt, along with his IMF team, sets out to stop the carnage.",
+        "trailerLink" : "https://www.youtube.com/watch?v=wb49-oV0F78",
+        "catagory": "Action and adventure"
+    },
+    {
+        "id": 12,
+        "thumbnail": "spiderman",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "description": "Teen Miles Morales becomes Spider-Man of his reality, crossing his path with five counterparts from another dimensions to stop a threat for all realities.",
+        "trailerLink" : "https://www.youtube.com/watch?v=XfJ1PFzE8DU",
+        "catagory": "Action and adventure"
+    },
+]
+
