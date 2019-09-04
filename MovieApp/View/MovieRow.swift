@@ -6,7 +6,7 @@ struct MovieRow : View {
     var movies: [Movie]
     
     var body: some View {
-     VStack(alignment: .leading) {
+        VStack(alignment: .leading) {
             Text(self.catagoryName)
                 .font(.title)
             ScrollView(.horizontal, showsIndicators: false) {

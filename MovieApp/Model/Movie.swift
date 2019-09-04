@@ -9,6 +9,7 @@ struct Movie: Hashable, Codable, Identifiable {
     var description: String
     var trailerLink: String
     var catagory: Catagory
+    var isFeaturedMovie: Bool
     
     enum Catagory: String, CaseIterable, Codable, Hashable {
         case marvel = "Marvel"
