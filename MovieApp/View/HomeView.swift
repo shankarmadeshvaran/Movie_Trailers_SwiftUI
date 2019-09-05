@@ -15,10 +15,8 @@ struct HomeView : View {
         NavigationView {
             ScrollView(.vertical , showsIndicators: false) {
                 VStack {
-                    NavigationLink(destination: MovieDetail(movie: featuredMovies[0])) {
-                        PageView(featuredMovies.map { FeaturedMovieView(movie: $0) })
-                            .frame(height: 225)
-                    }
+                    PageView(featuredMovies.map { FeaturedMovieView(movie: $0) })
+                        .frame(height: 225)
                     VStack {
                         ForEach(catagories.keys.sorted(), id: \String.self) { key in
                             MovieRow(catagoryName: key, movies: self.catagories[key]!)
@@ -38,8 +36,28 @@ struct HomeView : View {
 struct FeaturedMovieView: View {
     var movie: Movie
     var body: some View {
-        Image(movie.thumbnail)
-            .resizable()
-            .clipped()
+        //        NavigationLink(destination: MovieDetail(movie: movie)) {
+        
+        ZStack(alignment: .bottom) {
+            Image(movie.thumbnail)
+                .resizable()
+                .clipped()
+            Rectangle()
+                .frame(height: 80)
+                .opacity(0.35)
+                .blur(radius: 10)
+            HStack {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(movie.title)
+                        .foregroundColor(.white)
+                        .bold()
+                        .font(.largeTitle)
+                }
+                .padding(.leading)
+                .padding(.bottom)
+                Spacer()
+            }
+        }
+        //        }
     }
 }
