@@ -37,7 +37,7 @@ struct PageViewController: UIViewControllerRepresentable {
                 return nil
             }
             if index == 0 {
-                self.parent.currentPage = parent.controllers.count
+                self.parent.currentPage = 0
                 return parent.controllers.last
             }
             self.parent.currentPage = index
@@ -49,7 +49,7 @@ struct PageViewController: UIViewControllerRepresentable {
                 return nil
             }
             if index + 1 == parent.controllers.count {
-                self.parent.currentPage = parent.controllers.startIndex
+                self.parent.currentPage = index
                 return parent.controllers.first
             }
             if index == parent.controllers.count {
