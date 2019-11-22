@@ -43,6 +43,12 @@ struct MovieDetail : View {
     }
 }
 
+struct MovieDetail_Preview: PreviewProvider {
+    static var previews: some View {
+        MovieDetail(movie: moviesData.first!)
+    }
+}
+
 struct WatchButton: View {
     let movie: Movie
     @State var showingDetail = false
@@ -62,3 +68,9 @@ struct WatchButton: View {
         }
     }
 }
+
+//struct WatchButton_Preview: PreviewProvider {
+//    static var previews: some View {
+//        WatchButton(movie: moviesData.first!)
+//    }
+//}

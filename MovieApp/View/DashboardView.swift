@@ -30,3 +30,8 @@ struct DashboardView: View {
     }
 }
 
+struct DashboardView_Preview: PreviewProvider {
+    static var previews: some View {
+        DashboardView()
+    }
+}

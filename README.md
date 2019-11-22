@@ -12,7 +12,7 @@ In this Project I have used SwiftUI's basic concepts and views and also integrat
 
 ## Platforms
 Task app will currently run from iOS 13 beta.
-This app is updated for Xcode 11 beta 7. I'll be updating the code for upcoming betas also.
+This app is updated for Xcode 11+ . I'll be updating the code for upcoming betas also.
 
 ## More Updates
 Follow me on [Twitter](https://twitter.com/Shankar__am) to get the latest update about features, code and more. Consider star the repo if you like it. 

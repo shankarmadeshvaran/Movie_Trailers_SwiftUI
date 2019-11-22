@@ -1,5 +1,3 @@
-
-
 import SwiftUI
 import Combine
 
@@ -10,7 +8,6 @@ struct HomeView : View {
         )
     }
     var featuredMovies = moviesData.filter({$0.isFeaturedMovie == true})
-    
     var body: some View {
         NavigationView {
             ScrollView(.vertical , showsIndicators: false) {
@@ -35,10 +32,15 @@ struct HomeView : View {
     }
 }
 
+struct HomeView_Preview: PreviewProvider {
+    static var previews: some View {
+        HomeView()
+    }
+}
+
 struct FeaturedMovieView: View {
     var movie: Movie
     var body: some View {
-//        return NavigationLink(destination: MovieDetail(movie: movie)) {
             ZStack(alignment: .bottom) {
                 Image(movie.thumbnail)
                     .resizable()
@@ -59,6 +61,11 @@ struct FeaturedMovieView: View {
                     Spacer()
                 }
             }
-//        }
+    }
+}
+
+struct FeaturedMovieView_Preview: PreviewProvider {
+    static var previews: some View {
+        FeaturedMovieView(movie: moviesData.first!)
     }
 }

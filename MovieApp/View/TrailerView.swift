@@ -12,6 +12,12 @@ struct TrailerView: View {
     }
 }
 
+struct TrailerView_Preview: PreviewProvider {
+    static var previews: some View {
+        TrailerView(movie: moviesData.first!)
+    }
+}
+
 struct SafariView: UIViewControllerRepresentable {
     let movie: Movie
     let safariVC: SFSafariViewController
@@ -22,5 +28,11 @@ struct SafariView: UIViewControllerRepresentable {
     }
     func updateUIViewController(_ uiViewController: SFSafariViewController, context: Context) {
         uiViewController.dismissButtonStyle = .close
+    }
+}
+
+struct SafariView_Preview: PreviewProvider {
+    static var previews: some View {
+        SafariView(movie: moviesData.first!, safariVC: SFSafariViewController.init(url: URL(string: moviesData.first!.trailerLink)!))
     }
 }

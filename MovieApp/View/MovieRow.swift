@@ -25,3 +25,9 @@ struct MovieRow : View {
         }
     }
 }
+
+struct MovieRow_Preview: PreviewProvider {
+    static var previews: some View {
+        MovieRow(catagoryName: "Marvel", movies: load("movies.json"))
+    }
+}

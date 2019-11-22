@@ -29,3 +29,9 @@ struct MovieItem : View {
         }
     }
 }
+
+struct MovieItem_Preview: PreviewProvider {
+    static var previews: some View {
+        MovieItem(movie: moviesData.first!)
+    }
+}
