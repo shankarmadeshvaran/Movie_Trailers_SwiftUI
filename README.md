@@ -2,7 +2,7 @@
 This is a basic app that I have created to shows the latest movies trailers based on different genres using SwiftUI.I have also integrated UIKit viewcontroller and views into SwiftUI project using UIViewControllerRepresentable and UIViewRepresentable.
 
 <p align="center">
-  <img src="https://github.com/shankarmadeshvaran/Movie_Trailers_SwiftUI/blob/master/Movie_Trailer.gif" width="50%" height="50%"/>
+  <img src="https://github.com/shankarmadeshvaran/Movie_Trailers_SwiftUI/blob/master/ScreenShots/Movie_Trailer.gif" width="50%" height="50%"/>
 </p>
 
 This project was made for fun to try out Swift UI and see how it interacts with other layers of the application now that we don't have view controllers. We're all still learning. This project is merely my attempt to put something together based on the ideas put accross in WWDC videos and in the documentation.
