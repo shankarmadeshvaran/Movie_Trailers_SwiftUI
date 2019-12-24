@@ -11,11 +11,14 @@ This project was made for fun to try out Swift UI and see how it interacts with 
 In this Project I have used SwiftUI's basic concepts and views and also integrated UIKit's page Controller by using UIViewRepresentable and UIViewControllerRepresentable.
 
 ## Platforms
-Task app will currently run from iOS 13 beta.
-This app is updated for Xcode 11+ . I'll be updating the code for upcoming betas also.
+Task app will currently run from iOS 13+.
+This app is updated for Xcode 11+ . I'll be updating the code for upcoming updates also.
+
+## Implementation
+I have put an detailed article on [Building Movie Trailer App Using SwiftUI](https://medium.com/@shankarmadeshvaran/building-movie-trailer-app-using-swiftui-5d4dc5497462) in Medium.
 
 ## More Updates
-Follow me on [Twitter](https://twitter.com/Shankar__am) to get the latest update about features, code and more. Consider star the repo if you like it. 
+Follow me on [Twitter](https://twitter.com/Shankar__am) or [LinkedIn](https://www.linkedin.com/in/shankar-mathesh)  to get the latest update about features, code and more. Consider star the repo if you like it. 
 
 ## More references
 1) [Interfacing with UIKit](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)
