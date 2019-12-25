@@ -15,7 +15,7 @@ Task app will currently run from iOS 13+.
 This app is updated for Xcode 11+ . I'll be updating the code for upcoming updates also.
 
 ## Implementation
-I have put an detailed article on [Building Movie Trailer App Using SwiftUI](https://medium.com/@shankarmadeshvaran/building-movie-trailer-app-using-swiftui-5d4dc5497462) in Medium.
+I have put an detailed article on [Building Movie Trailer App Using SwiftUI](https://medium.com/flawless-app-stories/building-movie-trailer-app-using-swiftui-5d4dc5497462) in Medium.
 
 ## More Updates
 Follow me on [Twitter](https://twitter.com/Shankar__am) or [LinkedIn](https://www.linkedin.com/in/shankar-mathesh)  to get the latest update about features, code and more. Consider star the repo if you like it. 
